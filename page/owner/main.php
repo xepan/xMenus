@@ -2,7 +2,8 @@
 
 class page_xMenus_page_owner_main extends page_componentBase_page_owner_main {
 	function initMainPage(){
-		$this->add('H1')->set('Component Owner Main Page');
+				$this->add('H3')->setHTML('Component Owner Main Page<small> no option At backend</small>');
+
 	}
 
 
